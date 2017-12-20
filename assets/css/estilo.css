@@ -90,6 +90,10 @@ p {
   text-align: center;
 }
 
+#produtos {
+  margin-top: 70px;
+}
+
 #encomenda {
   margin-bottom: 40px;
 }
@@ -109,24 +113,37 @@ p {
   transform: translate3d(0,0,0);
 }
 
-#produtos {
-  margin-top: 70px;
+.contatos {
+  margin: 100px 0px 30px 0px;
+}
+
+form {
+  margin-top: -20px;
+}
+
+#visita {
+  text-align: center;
+  border-left: 1px solid #999999;
+}
+
+label {
+  font-family: 'Athiti', sans-serif;
+  line-height: 30px;
+  font-size: 15pt;
 }
 
 #endtel {
-    font-family: 'Athiti', sans-serif;
-    text-align: center;
-    font-size: 13pt;
-  }
-
-#mapa {
-  display: flex;
-  justify-content: center;
+  margin-top: 20px;
+  margin-left: -35px;
+  font-family: 'Athiti', sans-serif;
+  text-align: center;
+  font-size: 13pt;
 }
 
 iframe {
-	width: 60%;
-	height: 300px;
+  margin-top: 10px;
+  height: 350px;
+  width: 350px;
   border: none;
 }
 
