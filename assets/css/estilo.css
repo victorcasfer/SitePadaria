@@ -98,6 +98,17 @@ p {
   padding-right: 30px;
 }
 
+.anime {
+  opacity: 0;
+  transform: translate3d(-300px,0,0);
+  transition: 1s;
+}
+
+.anime-start {
+  opacity: 1;
+  transform: translate3d(0,0,0);
+}
+
 #produtos {
   margin-top: 70px;
 }
