@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <title>Point do Pão - Contatos</title>
@@ -61,11 +61,11 @@
     <div class="row contatos">
       <div class="container col-lg-6 anime">
         <h2>Fale conosco</h2>
-        <form action="#" method="POST">
+        <form action="mensagem.php" method="POST">
           <div class="row justify-content-center">
             <div class="form-group col-lg-8">
                 <label>Nome:</label>
-                <input type="text" name="name" class="form-control" required>
+                <input type="text" name="nome" class="form-control" required>
             </div>
           </div>
           <div class="row justify-content-center">
@@ -77,7 +77,7 @@
           <div class="row justify-content-center">
             <div class="form-group col-lg-8">
               <label>Assunto:</label>
-              <select class="form-control">
+              <select class="form-control" name="assunto">
                 <option>Encomendas</option>
                 <option>Sugestões</option>
                 <option>Reclamações</option>
@@ -88,8 +88,8 @@
           </div>
           <div class="row justify-content-center">
             <div class="form-group col-lg-8">
-                <label>Menssagem:</label>
-                <textarea class="form-control" rows="5" name="message" required></textarea>
+                <label>Mensagem:</label>
+                <textarea class="form-control" rows="5" name="mensagem" required></textarea>
             </div>
           </div>
           <div class="row justify-content-center">
