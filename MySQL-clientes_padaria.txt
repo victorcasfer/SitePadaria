@@ -1,0 +1,12 @@
+create database clientes_padaria;
+
+use clientes_padaria;
+
+create table contatos(
+	id int not null primary key auto_increment,
+	nome varchar(50) not null,
+	email varchar(100) not null,
+	assunto varchar(100) not null,
+	mensagem varchar(300) not null,
+	data_msg datetime default current_timestamp
+);
